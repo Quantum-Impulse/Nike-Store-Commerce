@@ -1,6 +1,7 @@
 import React from 'react'
 
-export const Hero = () => {
+
+const Hero = ( {heroapi}) => {
   return (
     <>
       <div>
@@ -21,3 +22,5 @@ export const Hero = () => {
     </>
   )
 }
+
+export default Hero;
