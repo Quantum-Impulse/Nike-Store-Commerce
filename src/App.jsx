@@ -1,6 +1,6 @@
 import React from 'react'
 
-export {default as Hero} from './Hero.jsx'; 
+import {Hero} from './components'; 
 
 const App = () => {
   return (
