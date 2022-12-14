@@ -27,7 +27,7 @@ const Item = ({id, color, shadow, title, text, img, btn, rating, price}) => {
                 </div>
             </div>
             <div className='flex items-center'>
-                <img src={img} alt='img/item-img' className='h-36 w-64 transitions-theme hover:-rotate-12'/>
+                <img src={img} alt={`img/item-img//${id}`} className='h-36 w-64 transitions-theme hover:-rotate-12'/>
             </div>
         </div>
     </>
