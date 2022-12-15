@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FlexContent = () => {
+const FlexContent = ({endpoint: {title, heading, text, img, btn, url} }) => {
   return (
     <>
         <div>
@@ -8,10 +8,12 @@ const FlexContent = () => {
                 <h1></h1>
                 <h1></h1>
                 <p></p>
-                <a></a>
+                <a>
+                    <button type='button' className=''></button>
+                </a>
             </div>
             <div>
-                
+                <img />
             </div>
         </div>
     </>
