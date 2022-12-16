@@ -1,8 +1,13 @@
 import React from 'react'
+import Title from './utils/Title'
 
-const Stories = () => {
+const Stories = ({story: {title, news}}) => {
   return (
-    <div>Stories</div>
+    <>
+        <div className='nike-container mb-11'>
+            <Title title={title} />
+        </div>
+    </>
   )
 }
 
