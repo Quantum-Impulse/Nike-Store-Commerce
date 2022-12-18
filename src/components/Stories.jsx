@@ -44,7 +44,7 @@ const Stories = ({story: {title, news}}) => {
                     <div className="flex items-center gap-0.5">
                       <HeartIcon className="icon-style text-red-500 w-5 h-5" />
                       <span className="text-xs font-bold">{val.like}</span>
-                    </div>
+                    </div>npm i --save lodash
                     <div className="flex items-center gap-0.5">
                       <ClockIcon className="icon-style w-4 h-4 text-black" />
                       <span className="text-xs font-bold">{val.time}</span>
